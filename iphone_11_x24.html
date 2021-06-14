@@ -4,18 +4,23 @@
   <meta charset="utf-8">
   <title>width</title>
   <style>
-   .layer1 {
+   .main_frame {
     width: 375px; /* Ширина блока */
     height:  812px;
     background: #fff; /* Цвет фона */
-
     border: 1px solid #ccc; /* Параметры рамки */
    }
-   .layer2 {
+   .status_bar {
     width: 375px;
     height: 44 px;
    }
-   .layer3 {
+   .clocks {
+    width: 56px;
+    height: 23 px;
+    padding: 8px 0px 0px 21px;
+
+   }
+   .plain_text {
     width: 283px; /* Ширина текстового блока */
     height: 299px;
     margin: 124px 46px 0px 46px;  /*Поля вокруг текста */
@@ -24,11 +29,11 @@
  </head>
  <body>
 
-  <div class="layer1">
-    <p class="layer2">
-        9.27
-    </p>
-   <p class="layer3"> Привет!<br><br>
+  <div class="main_frame">
+    <div class="status_bar">
+        <p class="clocs"> 9.27 </p> 
+    </div>
+   <p class="plain_text"> Привет!<br><br>
 Перед тобой —  дневник эмоций, основанный на твоих фотографиях.<br><br>
 Чтобы сделать запись в дневник, сделай фото себя или чего-угодно тебя окружающего</p>
   </div>
