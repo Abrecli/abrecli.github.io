@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>width</title>
+  <style>
+   .main_page {
+    width: 375px; /* Ширина блока */
+    height:  812px;
+    position: absolute; /* Абсолютное позиционирование */
+   }
+
+   .background{
+    position: absolute; /* Абсолютное позиционирование */
+    left: 0;
+    top: 0;
+   }
+
+   .sidebar {
+    width: 375px; /* Ширина блока */
+    height:  44px;
+    padding-top: 15px;
+    padding-left: 50;
+    float:  "right";
+    background: #fff; /* Цвет фона */
+    border: 1px solid #ccc; /* Параметры рамки */
+   }
+
+   .clocks {
+    width: 54px;
+    height: 18 px;
+    margin-top: 15px;
+    margin-left: 21px;
+   }
+
+   .slidebar_icons {
+    width: 68px;
+    height: 16 px;
+    margin-top: 8px;
+    margin-left: 0px;
+    float: right;
+   }
+
+   .text {
+    width: 299px;
+    height: 283 px;
+    position: absolute; /* Абсолютное позиционирование */
+    top: 124px; /* Положение от нижнего края */
+    left: 46px; /* Положение от правого края */
+    color: #1b0070;
+   }
+
+    button {
+      position: absolute;
+      top: 680px; /* Положение от нижнего края */
+      left: 45px; /* Положение от правого края */
+      font-family: 'Raleway', sans-serif;
+      width: 302px;
+      font-size: 20px;
+      font-weight: 500;
+      color: #1B0070;
+      border: 1px;
+      border-radius: 23px;
+      stroke-width: 1px;
+      stroke-fill: linear-gradient(to right, #8564FD, #DC52FE, #39D1FF);
+    }
+    .btn-stroke {
+      height: 57 px;
+    }
+    .sofa_image {
+      position: absolute;
+      top: 197px; /* Положение от нижнего края */
+      left: 0px; /* Положение от правого края */
+    }
+  </style>
+ </head>
+ <header>
+ </header>
+ <body>
+  <div class="background">
+    <img float="left" src="./images/Background.png" alt="">
+  </div>
+  <div class="sofa_image">
+    <img float="left" src="./images/sofa_girl.png" alt="">
+  </div>
+  <div class="main_page">
+    <div class = slidebar>
+      <p>
+            9.27
+          <img  class="slidebar_icons", src="./images/Connections.png" alt="">
+      </p>
+    </div>
+   <p class="text"> Привет!<br><br>
+Перед тобой —  дневник эмоций, основанный на твоих фотографиях.<br>
+  </div>
+    <button class="btn-stroke">
+      Дальше</button>
+ </body>
+</html>
