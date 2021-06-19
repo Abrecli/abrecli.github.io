@@ -1,66 +1,177 @@
 <!DOCTYPE html>
-<html lang=ru dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <title>Элементы</title>
-  </head>
-  <style media="screen">
-    body{
-        font-family: 'Raleway', sans-serif;
-      }
+<html>
+ <head>
+  <meta charset="utf-8">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <title>24</title>
+  <style>
+  .main_page {
+    position: absolute;
+    width: 375px;
+    height: 812px;
 
-    #rectangle1 {
-      width: 74px;
-      height: 40px;
-      border-radius: 30px 0px 0px 30px;
-      background: linear-gradient(to right, #DC52FE, #EA93FF);
-      float: left;
-      margin-right: 0px;
-    }
-    #rectangle2 {
-      width: 148px;
-      height: 40px;
-      background: linear-gradient(to right, #8564FD, #AD97FF);
-      float: left;
-      margin-right: 0px;
-    }
-    #rectangle3 {
-      width: 95px;
-      height: 40px;
-      border-radius: 0px 30px 30px 0px;
-      background: linear-gradient(to right, #39D1FF, #90E5FF);
-      float: left;
-      margin-right: 0px;
-    }
-    button {
-      position: absolute;
-      font-family: 'Raleway', sans-serif;
-      width: 42px;
-      font-size: 20px;
-      font-weight: 500;
-      font-color: #1B0070;
-      border: 1px;
-      border-radius: 23px;
-      stroke-width: 1px;
-      stroke-fill: linear-gradient(to right, #8564FD, #DC52FE, #39D1FF);
-    }
-    .btn-stroke {
-      height: 108 px;
-    }
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+  }
+  .slide_bar {
+    position: absolute;
+    width: 375px;
+    height: 44px;
+    left: 0px;
+    top: 0px;
+  }
+  .clocks {
+    position: absolute;
+    width: 56px;
+    height: 23px;
+    left: 21px;
+    top: 15px;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: -0.333333px;
+    color: #000000;
+  }
+  .slidebar_icons {
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    right: 14px;
+    top: 15px;
+  }
+  .main_text {
+    position: absolute;
+    width: 279px;
+    height: 78px;
+    left: 48px;
+    top: 85px;
+    /* Main text */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    /* Icons */
+    color: #1B0070;
+  }
+  .camera_icon {
+    position: absolute;
+    width: 173px;
+    height: 157px;
+    left: 101px;
+    top: 262px;
+  }
+
+  .galery_text {
+    /* Или выбери из галереи */
+    position: absolute;
+    width: 279px;
+    height: 26px;
+    left: 48px;
+    top: 503px;
+    /* Main text */
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    /* identical to box height */
+    /* Icons */
+    color: #1B0070;
+  }
+/*  .rectangle_387 {
+    position: absolute;
+    left: 0%;
+    right: 5.86%;
+    top: 6.98%;
+    bottom: 5.76%;
+    background: #FFFFFF;
+    border-radius: 23px;
+  }
+  .rectangle_388 {
+    position: absolute;
+    left: 0%;
+    right: 5.19%;
+    top: 6.98%;
+    bottom: 2.27%;
+    background: linear-gradient(102.46deg, rgba(98, 221, 239, 0.7) 10.02%, rgba(50, 115, 245, 0.7) 88.57%);
+    filter: blur(7px);
+    border-radius: 57px;
+  }
+  .rectangle_389 {
+    position: absolute;
+    left: 0%;
+    right: 5.19%;
+    top: 6.98%;
+    bottom: 2.27%;
+    background: linear-gradient(267.41deg, rgba(188, 148, 245, 0.7) 18.4%, rgba(231, 134, 255, 0.7) 92.25%);
+    filter: blur(7px);
+    border-radius: 57px;
+  }
+  .button_text {
+    position: absolute;
+    left: 6.96%;
+    right: 12.49%;
+    top: 32.25%;
+    bottom: 30.91%;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #1B0070;
+  }*/
+  .button{
+    position: absolute;
+    width: 302px;
+    height: 57px;
+    left: 42px;
+    top: 558px;
+  }
+  .down_menu {
+    position: absolute;
+    width: 375px;
+    height: 132px;
+    left: 0px;
+    top: 680px;
+  }
 
   </style>
-  <body>
-    <img src="./icons/Property 1=Good.png" alt="">
-    <img src="./icons/Property 1=Middle.png" alt="">
-    <img src="./icons/Property 1=Bad.png" alt="">
-    <br>
-    <div id="rectangle1"></div>
-    <div id="rectangle2"></div>
-    <div id="rectangle3"></div>
-    <br>
-    <button class="btn-stroke">
-      Неделя</button>
-  </body>
+ </head>
+ <header>
+ </header>
+ <body>
+
+  <div class="main_page">
+    <div class="slidebar">
+      <div class="clocks">
+        9:27
+      </div>
+      <div class="slidebar_icons">
+        <img src="./images/Connections.png" alt="">
+      </div>
+    </div>
+    <div class="main_text">
+      Сделай фото <br>для создания записи <br>в дневник
+    </div>
+      <img class="camera_icon" src="./images/Camera.png" alt="" >
+    <div class="galery_text">
+      Или выбери из галереи
+    </div>
+<!--     <div id="rectangle_387"></div>
+    <div id="rectangle_389"></div>
+    <div id="rectangle_388"></div>
+ -->
+    <img class="button" src="./images/Button_next.png" alt="">
+    <img class="down_menu" src="./images/Menu_2.png" alt="">
+    
+  </div>
+ </body>
 </html>
