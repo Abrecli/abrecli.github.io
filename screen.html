@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang=ru dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <title>Screen</title>
+  </head>
+  <style type="text/css">
+    body{
+        font-family: 'Raleway', sans-serif;
+      }
+    .formblock {
+      position: absolute;
+      width: 375px;
+      height: 812px;
+      background-color: #ffffff;
+      margin: 0;
+      border: 1px solid #0D0D0D;
+      box-sizing: border-box;
+            }
+    .statusbar {
+      position: absolute;
+      width: 375px;
+      height: 44px;
+      left: 0px;
+      top: 0px;
+    }
+    .clock {
+      font-family: 'SF Pro Text';
+      position: absolute;
+      width: 56px;
+      height: 23px;
+      left: 21px;
+      top: 8px;
+      margin: 8px 13px 0px 21px;
+      padding: 6px 0px 0px 0px;
+      color: black;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 18px;
+      text-align: center;
+      letter-spacing: -0.333333px;
+    }
+    .statusbar_icons {
+      position: absolute;
+      width: 68px;
+      height: 16px;
+      right: 14px;
+      top: 15px;
+    }
+    .icons {
+      display: inline-block;
+    }
+    .text {
+      position: absolute;
+      width: 279px;
+      height: 78px;
+      left: 48px;
+      top: 129px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 22px;
+      line-height: 26px;
+      color: #1B0070;
+    }
+    .camera {
+      position: absolute;
+      width: 173px;
+      height: 157px;
+      left: 101px;
+      top:262px;
+    }
+
+    .rectangle1 {
+      position: absolute;
+      left: 49px;
+      right: 40px;
+      top: 562px;
+      bottom: 198px;
+      background: linear-gradient(102.46deg, rgba(98, 221, 239, 0.7) 10.02%, rgba(50, 115, 245, 0.7) 88.57%);
+      filter: blur(7px);
+      border-radius: 57px;
+    }
+    .rectangle2 {
+      position: absolute;
+      left: 49px;
+      right: 40px;
+      top: 562px;
+      bottom: 198px;
+      background: linear-gradient(267.41deg, rgba(188, 148, 245, 0.7) 18.4%, rgba(231, 134, 255, 0.7) 92.25%);
+      filter: blur(7px);
+      border-radius: 57px;
+    }
+    .rectangle3 {
+      position: absolute;
+      left: 49px;
+      right: 42px;
+      top: 562px;
+      bottom: 200px;
+      background: #FFFFFF;
+      border-radius: 23px;
+    }
+    .btn-text {
+      position: absolute;
+      width: 243px;
+      height: 21px;
+      margin: 14px 20px 14px 21px;
+      font-family: 'Raleway';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 21px;
+      text-align: center;
+      color: #1B0070;
+    }
+    .menufield {
+      position: absolute;
+      width: 375px;
+      height: 159px;
+      left: 0px;
+      top: 653px;
+    }
+    .menu-1 {
+      position: absolute;
+      width: 375px;
+      height: 159px;
+      left: 0px;
+       display: inline-block;
+     }
+
+    .circle_menu_1 {
+      position: absolute;
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      background: radial-gradient(69.74% 69.74% at 30.26% 53.95%, rgba(220, 82, 254, 0.7) 0%, rgba(133, 100, 253, 0.7) 69.75%, rgba(57, 209, 255, 0.7) 99.87%);
+      filter: blur(14px);
+      display: inline-block;
+    }
+
+  </style>
+  <body>
+    <div class="formblock">
+      <div class="statusbar">
+        <div class="clock">
+          9:27
+        </div>
+        <div class="statusbar_icons">
+          <div class="icons"><img src="./icons/Connection.png" alt=""></div>
+          <div class="icons"><img src="./icons/Wifi.png" alt=""></div>
+          <div class="icons"><img src="./icons/Battery.png" alt=""></div>
+        </div>
+      </div>
+      <div class="text">
+        Сделай фото <br>для создания записи <br>в дневник
+      </div>
+      <div class="camera">
+        <img src="./images/Camera.png" alt="">
+      </div>
+      <div class="text" style="left: 48px; top: 503px;">
+        Или выбери из галереи
+      </div>
+      <div class="btn">
+        <div class="rectangle1"></div>
+        <div class="rectangle2"></div>
+        <div class="rectangle3">
+          <div class="btn-text">
+            Открыть галерею
+          </div>
+        </div>
+      </div>
+      <div class="menufield">
+        <div class="menu-1">
+        <img src="./images/Menu_2_375.png" alt="">
+        <div class="circle_menu_1">
+          <img style="width: 17px; height: 21px; margin: 11 8px 9 10px;" src="./icons/Diary_on.png" alt="">
+        </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  </html>
